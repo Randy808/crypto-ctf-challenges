@@ -1,0 +1,9 @@
+Dear Alice,
+
+I've been experimenting with discrete logs over finite fields with a prime number of elements, p. The idea is, if p is large and I raise some base g to a power, it's hard to figure out the exponent just from the result.
+
+I heard that the choice of g matters depending on something called its "order," but I kinda skipped that part. Instead, I made p small to save on computation and added some key-based expression to (hopefully) make up for the weaker security.
+
+Now I'm seeing a lot of repeated ciphertexts, and I’m not sure if I messed something up. Think you can break it?
+
+– Bob
